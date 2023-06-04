@@ -27,7 +27,7 @@ export default function Services() {
               Boost your website's performance and security with our top-notch
               DNS services. Our reliable and efficient DNS solutions ensure fast
               and secure domain name resolution, enhancing your online presence
-              and user experience.{" "}
+              and user experience.
             </p>
           </div>
         </div>
