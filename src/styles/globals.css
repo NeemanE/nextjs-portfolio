@@ -2,26 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.card:hover {
+    box-shadow: 0 0 10px 3px rgba(66, 153, 225, 0.5);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes borderCycle {
+    0% {
+      border-color: rgb(255, 0, 0);
+    }
+    50% {
+      border-color: rgb(0, 255, 0);
+    }
+    100% {
+      border-color: rgb(0, 0, 255);
+    }
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  
+  .hover\:border-animation:hover {
+    animation: borderCycle 2s linear infinite;
+  }
+  .hover\:glow-animation:hover {
+    animation: glowCycle 2s linear infinite;
+  }
+  
+  @keyframes glowCycle {
+    0% {
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    }
+  }  
