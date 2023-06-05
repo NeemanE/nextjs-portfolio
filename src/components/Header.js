@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 bg-[#f7f7f7] z-10 shadow">
+    <header className="sticky top-0 bg-gray-200 z-10 shadow">
       <nav className="flex justify-start pl-10">
         <div className="flex space-x-4">
           <Link

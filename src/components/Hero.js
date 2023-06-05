@@ -6,11 +6,11 @@ export default function Hero() {
           Houston Based Web Development
         </h1>
         <p className="py-10 px-20 text-white text-lg">
-          "At (placeholder for now), we are passionate about crafting
+          At Protocall Technologies, we are passionate about crafting
           exceptional web experiences. Our dedicated team of designers and
           developers combine creativity and technical expertise to deliver
           stunning, user-friendly websites that help businesses thrive in the
-          digital world."
+          digital world.
         </p>
       </div>
     </section>

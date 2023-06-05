@@ -8,7 +8,7 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="bg-white pb-12">
+    <section id="about" className="bg-gray-200 pb-12">
       <h1 className="text-center pt-6 pb-4 text-3xl font-bold">About Me</h1>
       <div className="flex flex-col md:flex-row justify-center items-center px-16">
         <p className="text-center text-lg md:text-left px-40">

@@ -31,7 +31,7 @@ function ContactForm() {
             type="text"
             name="name"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md mb-4 focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 rounded-md mb-4 focus:outline-none focus:border-green-500"
           />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
 
@@ -43,7 +43,7 @@ function ContactForm() {
             type="email"
             name="email"
             required
-            className="w-full px-4 py-2 border border-gray-300 rounded-md mb-4 focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 rounded-md mb-4 focus:outline-none focus:border-green-500"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
 
@@ -58,7 +58,7 @@ function ContactForm() {
             name="message"
             rows="4"
             style={{ resize: "none" }}
-            className="w-full px-4 py-2 border border-gray-300 rounded-md mb-4 focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 border border-gray-300 rounded-md mb-4 focus:outline-none focus:border-green-500"
           />
           <ValidationError
             prefix="Message"
@@ -74,6 +74,7 @@ function ContactForm() {
             {state.submitting ? "Submitting..." : "Submit"}
           </button>
         </form>
+        
       </div>
     </section>
   );

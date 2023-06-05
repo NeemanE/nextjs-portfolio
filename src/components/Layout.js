@@ -5,6 +5,7 @@ import Hero from './Hero'
 import Services from './Services'
 import About from './About'
 import Contact from './Contact'
+import Marketing from './Marketing'
 
 export default function AppLayout() {
     return (
@@ -13,6 +14,7 @@ export default function AppLayout() {
             <Header />
             <main className="flex-grow bg-gradient-to-r from-blue-500 to-blue-600">
                <Hero />
+               <Marketing />
                <Services />
                <About />
                <Contact />
