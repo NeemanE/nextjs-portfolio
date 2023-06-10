@@ -2,9 +2,12 @@ export default function Services() {
   return (
     <section id="services">
       <h2 className="text-4xl font-bold text-center mt-10 mb-5">Services</h2>
-      <div className="flex flex-wrap justify-center lg:gap-10 lg:mt-10 mb-64 ">
-        <div className="w-[80vw] lg:w-[20%] mb-[23vh] rounded-lg">
-          <div className="bg-[url('https://cdn.pixabay.com/photo/2016/11/30/20/44/computer-1873831_1280.png')] bg-cover bg-no-repeat h-3/4 "></div>
+      <div className="flex flex-wrap justify-center lg:gap-10 lg:mt-10 mb-24">
+        <div className="w-[80vw] lg:w-[20%] mb-[5vh] rounded-lg">
+          <div
+            className="bg-[url('https://cdn.pixabay.com/photo/2016/11/30/20/44/computer-1873831_1280.png')] bg-cover bg-no-repeat h-3/4 "
+            style={{ maxHeight: "206px", minHeight: "205px" }}
+          ></div>
           <div className="p-4">
             <h2 className="text-lg font-semibold bg-transparent">
               Web Design and Development
@@ -17,8 +20,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="w-[80vw] lg:w-[20%] mb-[23vh] rounded-lg">
-          <div className="bg-[url('https://mma.prnewswire.com/media/2059745/Infoblox_Inc.jpg?p=large')] bg-cover bg-no-repeat h-3/4 md:h-5/6 md:bg-center"></div>
+        <div className="w-[80vw] lg:w-[20%] mb-[5vh] rounded-lg">
+          <div
+            className="bg-[url('https://mma.prnewswire.com/media/2059745/Infoblox_Inc.jpg?p=large')] bg-cover bg-no-repeat h-3/4 md:h-5/6 md:bg-center lg:h-3/4 lg:bg-cover"
+            style={{ maxHeight: "206px", minHeight: "205px" }}
+          ></div>
           <div className="p-4">
             <h2 className="text-lg font-semibold bg-transparent">
               Domain Name Services
@@ -31,8 +37,11 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="w-[80vw] lg:w-[20%] mb-[25vh] rounded-lg">
-          <div className="bg-[url('https://cdn.pixabay.com/photo/2014/02/13/07/28/cms-265126_1280.jpg')] bg-cover bg-no-repeat h-3/4 md:h-5/6 md:bg-center"></div>
+        <div className="w-[80vw] lg:w-[20%] mb-[5vh] rounded-lg">
+          <div
+            className="bg-[url('https://cdn.pixabay.com/photo/2014/02/13/07/28/cms-265126_1280.jpg')] bg-cover bg-no-repeat h-3/4"
+            style={{ maxHeight: "206px", minHeight: "205px" }}
+          ></div>
           <div className="p-4">
             <h2 className="text-lg font-semibold bg-transparent">
               Content Management Systems
@@ -45,14 +54,21 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="w-[80vw] lg:w-[20%] rounded-lg mb-[5vh]">
-          <div className="bg-[url('https://res.infoq.com/articles/secure-distributed-database-cluster/en/headerimage/generatedHeaderImage-1660581268935.jpg')] bg-cover bg-no-repeat h-3/4"></div>
+        <div className="w-[80vw] lg:w-[20%] rounded-lg">
+          <div
+            className="bg-[url('https://res.infoq.com/articles/secure-distributed-database-cluster/en/headerimage/generatedHeaderImage-1660581268935.jpg')] bg-cover bg-no-repeat h-3/4"
+            style={{ maxHeight: "206px", minHeight: "205px" }}
+          ></div>
           <div className="p-4">
             <h2 className="text-lg font-semibold bg-transparent">
               Cloud Databases
             </h2>
             <p className="text-black mt-2 bg-transparent">
-            Cloud databases offer scalable and reliable storage solutions for businesses, allowing you to securely store and access data from anywhere. With flexible deployment options and robust features, cloud databases allow you to optimize data management, enhance performance, and streamline operations in the digital age.
+              Cloud databases offer scalable and reliable storage solutions for
+              businesses, allowing you to securely store and access data from
+              anywhere. With flexible deployment options and robust features,
+              cloud databases allow you to optimize data management, enhance
+              performance, and streamline operations in the digital age.
             </p>
           </div>
         </div>

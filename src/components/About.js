@@ -36,9 +36,9 @@ export default function About() {
             width={175}
             height={175}
           />
-          <h3 className="text-lg font-semibold mb-2 text-center">
+          <h2 className="text-lg font-semibold mb-2 text-center">
             Protocall Financial
-          </h3>
+          </h2>
           <p className="text-gray-600 text-center">protocallfinancial.com</p>
         </div>
         <div
