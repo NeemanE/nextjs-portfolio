@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Services() {
   return (
     <section id="services">
@@ -5,8 +7,11 @@ export default function Services() {
       <div className="flex flex-wrap justify-center lg:gap-10 lg:mt-10 mb-24">
         <div className="w-[80vw] lg:w-[20%] mb-[5vh] rounded-lg">
           <div
-            className="bg-[url('https://cdn.pixabay.com/photo/2016/11/30/20/44/computer-1873831_1280.png')] bg-cover bg-no-repeat h-3/4 "
-            style={{ maxHeight: "206px", minHeight: "205px" }}
+            className="bg-[url('/images/Programming.png')] bg-cover bg-no-repeat h-3/4 "
+            style={{
+              maxHeight: "206px",
+              minHeight: "205px",
+            }}
           ></div>
           <div className="p-4">
             <h2 className="text-lg font-semibold bg-transparent">
@@ -22,7 +27,7 @@ export default function Services() {
         </div>
         <div className="w-[80vw] lg:w-[20%] mb-[5vh] rounded-lg">
           <div
-            className="bg-[url('https://mma.prnewswire.com/media/2059745/Infoblox_Inc.jpg?p=large')] bg-cover bg-no-repeat h-3/4 md:h-5/6 md:bg-center lg:h-3/4 lg:bg-cover"
+            className="bg-[url('/images/DNS.jpg')] bg-cover bg-no-repeat h-3/4 md:h-5/6 md:bg-center lg:h-3/4 lg:bg-cover"
             style={{ maxHeight: "206px", minHeight: "205px" }}
           ></div>
           <div className="p-4">
@@ -39,7 +44,7 @@ export default function Services() {
         </div>
         <div className="w-[80vw] lg:w-[20%] mb-[5vh] rounded-lg">
           <div
-            className="bg-[url('https://cdn.pixabay.com/photo/2014/02/13/07/28/cms-265126_1280.jpg')] bg-cover bg-no-repeat h-3/4"
+            className="bg-[url('/images/CMS.jpg')] bg-cover bg-no-repeat h-3/4"
             style={{ maxHeight: "206px", minHeight: "205px" }}
           ></div>
           <div className="p-4">
@@ -56,7 +61,7 @@ export default function Services() {
         </div>
         <div className="w-[80vw] lg:w-[20%] rounded-lg">
           <div
-            className="bg-[url('https://res.infoq.com/articles/secure-distributed-database-cluster/en/headerimage/generatedHeaderImage-1660581268935.jpg')] bg-cover bg-no-repeat h-3/4"
+            className="bg-[url('/images/Cloud-Storage.jpg')] bg-cover bg-no-repeat h-3/4"
             style={{ maxHeight: "206px", minHeight: "205px" }}
           ></div>
           <div className="p-4">
