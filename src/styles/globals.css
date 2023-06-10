@@ -36,3 +36,16 @@
       box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
     }
   }  
+
+  .menu-closed {
+    transform: translateX(-100%);
+  }
+  
+  .menu-open {
+    transform: translateX(0);
+  }
+  
+  .transition-transform {
+    transition: transform 0.3s ease-out;
+  }
+  
