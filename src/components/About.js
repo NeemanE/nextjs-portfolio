@@ -10,8 +10,9 @@ export default function About() {
   return (
     <section id="about" className="bg-gray-200 pb-12">
       <h1 className="text-center pt-6 pb-4 text-3xl font-bold">About Me</h1>
-      <div className="flex flex-col md:flex-row justify-center items-center px-16">
-        <p className="text-center text-lg md:text-left px-40">
+      <div className="flex flex-col sm:flex-row justify-center items-center sm:px-16">
+        <p className="text-center text-lg sm:text-left px-8 sm:px-40">
+          Hi, My name is Neeman, and I'm the main developer here at Protocall.
           As a recently graduated web developer with a strong passion for
           innovation, I am eager to contribute my skills and knowledge to help
           drive your startup's success. With a solid foundation in modern web
@@ -22,14 +23,14 @@ export default function About() {
           so we can grow together.
         </p>
       </div>
-      <div className="flex flex-row justify-center mt-8 gap-8">
+      <div className="flex flex-col mx-20 sm:flex-row justify-center mt-8 gap-8">
         <div
           className="bg-[#f7f7f7] rounded-lg shadow-md p-6 mb-4 cursor-pointer transition-transform duration-300 transform hover:scale-105 hover:border-animation border hover:glow-animation"
           onClick={() => handleCardClick("https://protocallfinancial.com")}
         >
           <img
             src="https://protocallfinancial.com/wp-content/uploads/2020/01/Protocall-Logo-Dark.png"
-            alt="Protocal Financial Logo"
+            alt="Protocall Financial Logo"
             className="w-40 h-auto mx-auto mb-4"
           />
           <h3 className="text-lg font-semibold mb-2 text-center">
