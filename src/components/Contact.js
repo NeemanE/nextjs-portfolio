@@ -10,10 +10,10 @@ function ContactForm() {
   return (
     <section
       id="contact"
-      className="flex flex-row py-12 bg-gradient-to-r from-blue-500 to-blue-700"
+      className="flex flex-col sm:flex-row py-12 bg-gradient-to-r from-blue-500 to-blue-700"
     >
-      <div className="flex-1 px-16 flex flex-col justify-center">
-        <h2 className="text-3xl text-white font-bold">Get In Touch</h2>
+      <div className="flex-1 px-8 md:px-16 flex flex-col justify-center">
+        <h2 className="text-3xl text-white font-bold text-center md:text-left">Get In Touch</h2>
         <p className="text-white text-xl mt-4 ">
           Be sure to contact us for all your web development needs. We are
           always ready to assist you in bringing your ideas to life. Fill out
@@ -21,7 +21,7 @@ function ContactForm() {
           great together!
         </p>
       </div>
-      <div className="flex-1">
+      <div className="flex-1 mx-6 mt-5">
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">
           <label htmlFor="name" className="block font-medium mb-2 text-white">
             Your Name
