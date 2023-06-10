@@ -3,7 +3,7 @@ export default function Services() {
     <section id="services">
       <h2 className="text-4xl font-bold text-center mt-10 mb-5">Services</h2>
       <div className="flex flex-wrap justify-center lg:gap-10 lg:mt-10 mb-64 ">
-        <div className="w-[80vw] lg:w-[20%] mb-[20vh] rounded-lg">
+        <div className="w-[80vw] lg:w-[20%] mb-[23vh] rounded-lg">
           <div className="bg-[url('https://cdn.pixabay.com/photo/2016/11/30/20/44/computer-1873831_1280.png')] bg-cover bg-no-repeat h-3/4 "></div>
           <div className="p-4">
             <h2 className="text-lg font-semibold bg-transparent">
@@ -17,7 +17,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="w-[80vw] lg:w-[20%] mb-[20vh] rounded-lg">
+        <div className="w-[80vw] lg:w-[20%] mb-[23vh] rounded-lg">
           <div className="bg-[url('https://mma.prnewswire.com/media/2059745/Infoblox_Inc.jpg?p=large')] bg-cover bg-no-repeat h-3/4 md:h-5/6 md:bg-center"></div>
           <div className="p-4">
             <h2 className="text-lg font-semibold bg-transparent">
@@ -31,7 +31,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="w-[80vw] lg:w-[20%] mb-[20vh] rounded-lg">
+        <div className="w-[80vw] lg:w-[20%] mb-[25vh] rounded-lg">
           <div className="bg-[url('https://cdn.pixabay.com/photo/2014/02/13/07/28/cms-265126_1280.jpg')] bg-cover bg-no-repeat h-3/4 md:h-5/6 md:bg-center"></div>
           <div className="p-4">
             <h2 className="text-lg font-semibold bg-transparent">

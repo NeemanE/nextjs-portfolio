@@ -69,7 +69,7 @@ function ContactForm() {
           <button
             type="submit"
             disabled={state.submitting}
-            className="w-full bg-green-500 text-white font-medium py-2 px-4 rounded-md hover:bg-green-600 transition duration-300"
+            className="w-full bg-[#ADFF2F] text-black font-medium py-2 px-4 rounded-md hover:bg-[#ADFF2F] transition duration-300"
           >
             {state.submitting ? "Submitting..." : "Submit"}
           </button>

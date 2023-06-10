@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 export default function About() {
   const [openLink, setOpenLink] = useState(null);
@@ -28,10 +29,12 @@ export default function About() {
           className="bg-[#f7f7f7] rounded-lg shadow-md p-6 mb-4 cursor-pointer transition-transform duration-300 transform hover:scale-105 hover:border-animation border hover:glow-animation"
           onClick={() => handleCardClick("https://protocallfinancial.com")}
         >
-          <img
-            src="https://protocallfinancial.com/wp-content/uploads/2020/01/Protocall-Logo-Dark.png"
+          <Image
+            src="/images/Protocall-Logo-Dark.png"
             alt="Protocall Financial Logo"
-            className="w-40 h-auto mx-auto mb-4"
+            className="mx-auto mb-4"
+            width={175}
+            height={175}
           />
           <h3 className="text-lg font-semibold mb-2 text-center">
             Protocall Financial
@@ -42,10 +45,12 @@ export default function About() {
           className="bg-[#f7f7f7] border rounded-lg shadow-md p-6 mb-4 cursor-pointer transition-transform duration-300 transform hover:scale-105 hover:border-animation hover:glow-animation"
           onClick={() => handleCardClick("https://dieselpowerx.com")}
         >
-          <img
-            src="https://dieselpowerx.com/assets/images/Diesel-Power.png"
+          <Image
+            src="/images/Diesel-Power.png"
             alt="Diesel Power Logo"
-            className="w-24 h-auto mx-auto mb-4"
+            className="mx-auto mb-4"
+            width={175}
+            height={175}
           />
           <h3 className="text-lg font-semibold mb-2 text-center ">
             Diesel Power
