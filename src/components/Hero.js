@@ -1,7 +1,19 @@
+import Image from 'next/legacy/image';
+
 export default function Hero() {
   return (
-    <section id="home">
-      <div className="w-fit h-[65vh] mx-auto bg-[url('/images/software-developer.jpg')] bg-cover bg-no-repeat flex flex-col items-center justify-center text-center">
+    <section id="home" className="relative h-[65vh] flex items-center justify-center">
+      <div className="absolute inset-0">
+        <Image
+          src="/images/software-developer.jpg"
+          alt="Background"
+          layout="fill"
+          objectFit="cover"
+          quality={50}
+          priority={true}
+        />
+      </div>
+      <div className="relative z-9 text-center">
         <h1 className="text-3xl font-semibold sm:text-5xl sm:font-bold text-white" style={{ textShadow: '0 0 20px black' }}>
           Houston Based Web Development
         </h1>
