@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="home" className="relative h-[65vh] flex items-center justify-center">
       <div className="absolute inset-0">
         <Image
-          src="/images/software-developer.jpg"
+          src="/images/software-developer4.jpg"
           alt="Background"
           layout="fill"
           objectFit="cover"
@@ -17,7 +17,7 @@ export default function Hero() {
         <h1 className="text-3xl font-semibold sm:text-5xl sm:font-bold text-white" style={{ textShadow: '0 0 20px black' }}>
           Houston Based Web Development
         </h1>
-        <p className="p-10 sm:py-10 sm:px-20 text-white sm:text-lg" style={{ textShadow: '2px 2px 10px black' }}>
+        <p className="p-10 sm:py-10 sm:px-20 text-white sm:text-lg" style={{ WebkitTextStroke: '.1px black' }}>
           At Protocall Technologies, we are passionate about crafting
           exceptional web experiences. Our dedicated team of designers and
           developers combine creativity and technical expertise to deliver
