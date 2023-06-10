@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section id="home">
-      <div className="w-fit h-[65vh] mx-auto bg-[url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg')] bg-cover bg-no-repeat flex flex-col items-center justify-center text-center">
+      <div className="w-fit h-[65vh] mx-auto bg-[url('/images/software-developer.jpg')] bg-cover bg-no-repeat flex flex-col items-center justify-center text-center">
         <h1 className="text-3xl font-semibold sm:text-5xl sm:font-bold text-white" style={{ textShadow: '0 0 20px black' }}>
           Houston Based Web Development
         </h1>
