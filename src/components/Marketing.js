@@ -1,5 +1,6 @@
 import React from "react";
-import { ChevronRightIcon } from "@heroicons/react/solid";
+import { ChevronRightIcon } from "@heroicons/react/solid";  
+import Image from "next/image";
 
 export default function Marketing() {
   return (

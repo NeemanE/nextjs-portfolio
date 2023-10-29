@@ -39,7 +39,7 @@ export default function About() {
           <h2 className="text-lg font-semibold mb-2 text-center">
             Protocall Financial
           </h2>
-          <p className="text-gray-600 text-center">protocallfinancial.com</p>
+          <p className="text-gray-600 text-center">goodcreditgoodlife.com</p>
         </div>
         <div
           className="bg-[#f7f7f7] border rounded-lg shadow-md p-6 mb-4 cursor-pointer transition-transform duration-300 transform hover:scale-105 hover:border-animation hover:glow-animation"
@@ -57,8 +57,24 @@ export default function About() {
           </h3>
           <p className="text-gray-600 text-center">dieselpowerx.com</p>
         </div>
+        <div
+          className="bg-[#f7f7f7] border rounded-lg shadow-md p-6 mb-4 cursor-pointer transition-transform duration-300 transform hover:scale-105 hover:border-animation hover:glow-animation"
+          onClick={() => handleCardClick("https://revautohouston.com")}
+        >
+          <Image
+            src="/images/revblue.png"
+            alt="Rev Automotive Logo"
+            className="mx-auto mb-4"
+            width={175}
+            height={175}
+          />
+          <h3 className="text-lg font-semibold mb-2 text-center ">
+            Rev Automotive
+          </h3>
+          <p className="text-gray-600 text-center">revautohouston.com</p>
+        </div>
       </div>
-      <div></div>
+      
       <div className="flex flex-wrap justify-center"></div>
     </section>
   );

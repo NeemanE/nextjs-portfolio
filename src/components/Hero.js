@@ -18,7 +18,7 @@ export default function Hero() {
           Houston Based Web Development
         </h1>
         <p className="p-10 sm:py-10 sm:px-20 text-white sm:text-lg" style={{ WebkitTextStroke: '.1px black' }}>
-          At Protocall Technologies, we are passionate about crafting
+          At Protocall Solutions, we are passionate about crafting
           exceptional web experiences. Our dedicated team of designers and
           developers combine creativity and technical expertise to deliver
           stunning, user-friendly websites that help businesses thrive in the
